@@ -1,0 +1,16 @@
+C:\Users\PC\Downloads\JsonParser\JsonParser\bin\Debug\net8.0\JsonParser.exe
+C:\Users\PC\Downloads\JsonParser\JsonParser\bin\Debug\net8.0\Datasets\Books.json
+C:\Users\PC\Downloads\JsonParser\JsonParser\bin\Debug\net8.0\Datasets\Students.json
+C:\Users\PC\Downloads\JsonParser\JsonParser\bin\Debug\net8.0\JsonParser.deps.json
+C:\Users\PC\Downloads\JsonParser\JsonParser\bin\Debug\net8.0\JsonParser.runtimeconfig.json
+C:\Users\PC\Downloads\JsonParser\JsonParser\bin\Debug\net8.0\JsonParser.dll
+C:\Users\PC\Downloads\JsonParser\JsonParser\bin\Debug\net8.0\JsonParser.pdb
+C:\Users\PC\Downloads\JsonParser\JsonParser\obj\Debug\net8.0\JsonParser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Downloads\JsonParser\JsonParser\obj\Debug\net8.0\JsonParser.AssemblyInfoInputs.cache
+C:\Users\PC\Downloads\JsonParser\JsonParser\obj\Debug\net8.0\JsonParser.AssemblyInfo.cs
+C:\Users\PC\Downloads\JsonParser\JsonParser\obj\Debug\net8.0\JsonParser.csproj.CoreCompileInputs.cache
+C:\Users\PC\Downloads\JsonParser\JsonParser\obj\Debug\net8.0\JsonParser.dll
+C:\Users\PC\Downloads\JsonParser\JsonParser\obj\Debug\net8.0\refint\JsonParser.dll
+C:\Users\PC\Downloads\JsonParser\JsonParser\obj\Debug\net8.0\JsonParser.pdb
+C:\Users\PC\Downloads\JsonParser\JsonParser\obj\Debug\net8.0\JsonParser.genruntimeconfig.cache
+C:\Users\PC\Downloads\JsonParser\JsonParser\obj\Debug\net8.0\ref\JsonParser.dll
