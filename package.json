@@ -1,17 +1,20 @@
 {
-  "name": "08-unit-testing-with-js-lab",
+  "name": "09-exercise-unit-testing-with-js",
   "version": "1.0.0",
   "description": "",
-  "main": "0801-Sum-of-Numbers.js",
+  "main": "0901-Even-or-Odd.js",
   "type": "module",
   "scripts": {
-    "test": "mocha ./*.spec.js",
-    "hello": "echo \"This is another script!\""
+    "test": "mocha ./*spec.js"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
+    "-": "^0.0.1",
     "chai": "^5.0.3",
+    "D": "^1.0.0"
+  },
+  "devDependencies": {
     "mocha": "^10.2.0"
   }
 }
