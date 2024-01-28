@@ -1,27 +1,18 @@
 import {lookupChar} from './0902-Char-Lookup.js'
 import {expect} from 'chai'
 
-describe('the functionlookupChar', () => {
+describe('Prob 0902. the function lookupChar', () => {
 
-  it   ('1. should return undefined if passed first parameter is not correct and second is correct', ()=> {
+  it   ('01. should return undefined if Param1 is number and Param2 is correct', ()=> {
             //Arrande
             const firstParamIsInteger = 123;
             const indexCorrect = 1;
             //Act
             const resultNotString = lookupChar(firstParamIsInteger, indexCorrect);
             //Assert
-            expect(resultNotString).to.be.undefined;
+            expect(resultNotString).to.be.undefined;   
   })  
-  it   ('2. should return Incorrect index if passed first parameter is stringempty', ()=> {
-            //Arrange
-            const firstParamIsemptyString = '';
-            const indexCorrect = 0;
-            //Act
-            const resultFirstParamEmptyStr = lookupChar(firstParamIsemptyString, indexCorrect);
-            //Assert
-            expect(resultFirstParamEmptyStr).equals('Incorrect index');
-  })  
-  it   ('3. should return undefined if passed first parameter is array empty', ()=> {
+  it   ('02. should return undefined if Param1 is array empty and Param2 is correct', ()=> {
             //Arrange
             const firstParamIsemptyArray = [];
             const indexCorrect = 0;
@@ -30,7 +21,7 @@ describe('the functionlookupChar', () => {
             //Assert
             expect(resultFisrstParamEmptyArray).to.be.undefined;
   })  
-  it   ('4. should return undefined if passed first parameter is null', ()=> {
+  it   ('03. should return undefined if Param1 is null and Param2 is correct', ()=> {
             //Arrange
             const firstParamIsNull = null;
             const indexCorrect = 0;
@@ -39,7 +30,7 @@ describe('the functionlookupChar', () => {
             //Assert
             expect(resultFisrtParamNull).to.be.undefined;
   })
-  it   ('5. should return undefined if passed first parameter is flaotingNumber', ()=> {
+  it   ('04. should return undefined if Param1 is flaotingNumber and Param2 is correct', ()=> {
             //Arrange
             const firstParamIsFloatingNumber = 10.10;
             const indexCorrect = 0;
@@ -48,7 +39,7 @@ describe('the functionlookupChar', () => {
             //Assert       
             expect(resultFirstParamFloatNum).to.be.undefined;
   })
-  it   ('6. should return undefined if passed first parameter is undefined', ()=> {
+  it   ('05. should return undefined if Param1 is undefined and Param2 is correct', ()=> {
             //Arrange
             const firstParamIsundefined = undefined;
             const indexCorrect = 0;
@@ -57,34 +48,34 @@ describe('the functionlookupChar', () => {
             //Assert       
             expect(resultFisrtParamUndefined).to.be.undefined;
   })
-  it   ('7. should return undefined if second parameneter is not a number', ()=> {
+  it   ('06. should return undefined if Param1 is correct Param2 is not a number', ()=> {
             //Arrange
             const firstParamIsString = 'hoho';
-            const indexNotANumber = 'v';
+            const indexNotANumber = '10.10';
             //Act
             const resultSecondParamStr = lookupChar(firstParamIsString, indexNotANumber);
             //Assert
             expect(resultSecondParamStr).to.be.undefined;
   })
-  it   ('8. should return undefined if second parameneter is char', ()=> {
-    //Arrange
-    const firstParamIsString = 'hoho';
-    const indexIsChar = '%';
-    //Act
-    const resultSecondParamChar = lookupChar(firstParamIsString, indexIsChar);
-    //Assert
-    expect(resultSecondParamChar).to.be.undefined;
+  it   ('07. should return undefined if Param1 is correct Param2 is char', ()=> {
+            //Arrange
+            const firstParamIsString = 'hoho';
+            const indexIsChar = '%';
+            //Act
+            const resultSecondParamChar = lookupChar(firstParamIsString, indexIsChar);
+            //Assert
+            expect(resultSecondParamChar).to.be.undefined;
   })
-  it   ('9. should return undefined if second parameneter is floating Number', ()=> {
-    //Arrange
-    const firstParamIsString = 'hoho';
-    const indexIsFloatingNumber = 10.10;
-    //Act
-    const resultSecondParamFloatNum = lookupChar(firstParamIsString, indexIsFloatingNumber);
-    //Assert
-    expect(resultSecondParamFloatNum).to.be.undefined;
+  it   ('08. should return undefined if Param1 is correct Param2 is floating Number', ()=> {
+            //Arrange
+            const firstParamIsString = 'hoho';
+            const indexIsFloatingNumber = 10.10;
+            //Act
+            const resultSecondParamFloatNum = lookupChar(firstParamIsString, indexIsFloatingNumber);
+            //Assert
+            expect(resultSecondParamFloatNum).to.be.undefined;
   })
-  it   ('10.should return undefined if second parameneter is null', ()=> {
+  it   ('09. should return undefined if Param1 is correct Param2 is null', ()=> {
             //Arrange
             const firstParamIsString = 'hoho';
             const indexIsNull = null;
@@ -93,7 +84,7 @@ describe('the functionlookupChar', () => {
             //Assert
             expect(resultSecondParamNull).to.be.undefined;
   })
-  it   ('11.should return undefined if second parameneter is undefinded', ()=> {
+  it   ('10. should return undefined if Param1 is correct Param2 is undefinded', ()=> {
             //Arrange
             const firstParamIsString = 'hoho';
             const indexIsUndefined = undefined;
@@ -102,7 +93,7 @@ describe('the functionlookupChar', () => {
             //Assert
             expect(resultEcondParamUndefined).to.be.undefined;
   })
-  it   ('12.should return undefined if second parameneter is string', ()=> {
+  it   ('11. should return undefined if Param1 is correct Param2 is string', ()=> {
             //Arrange
             const firstParamIsString = 'hoho';
             const indexIsUndefined = 'hello';
@@ -111,7 +102,7 @@ describe('the functionlookupChar', () => {
             //Assert
             expect(resultSecondParamString).to.be.undefined;
   })
-  it   ('13.should return undefined if firstParamenter is not string and second parameneter is not a number', ()=> {
+  it   ('12. should return undefined if Param1 is not correct and Param2 is not correct', ()=> {
             //Arrange
             const firstParamIsString = 123;
             const indexNotANumber = 'v';
@@ -120,7 +111,7 @@ describe('the functionlookupChar', () => {
             //Assert
             expect(resultFirstAndSecondParamUndefined).to.be.undefined;
   })
-  it   ('14.should return Incorrect index if second parameneter index is lower then 0', ()=> {
+  it   ('13. should return Incorrect index if second parameneter index is lower then 0', ()=> {
             //Arrange
             const firstParamIsString = 'hoho';
             const indexUnderZero = -1;
@@ -129,7 +120,7 @@ describe('the functionlookupChar', () => {
             //Assert
             expect(resultIndexShorter).equals("Incorrect index");
   })
-  it   ('15.should return Incorrect index if second parameneter index is equal to the string length', ()=> {
+  it   ('14. should return Incorrect index if second parameneter index is equal to the string length', ()=> {
             //Arrange
             const firstParamIsString = 'hoho';
             const indexEqualsToStringLength = 4;
@@ -137,6 +128,15 @@ describe('the functionlookupChar', () => {
             const resultIndexEqualToStrLength = lookupChar(firstParamIsString, indexEqualsToStringLength);
             //Assert
             expect(resultIndexEqualToStrLength).equals("Incorrect index");
+  })
+  it   ('15. should return Incorrect index if passed first parameter is stringempty', ()=> {
+            //Arrange
+            const firstParamIsemptyString = '';
+            const indexCorrect = 0;
+            //Act
+            const resultFirstParamEmptyStr = lookupChar(firstParamIsemptyString, indexCorrect);
+            //Assert
+            expect(resultFirstParamEmptyStr).equals('Incorrect index');
   })
   it   ('16.should return Incorrect index if second parameneter index is bigger then length of the first paramenter', ()=> {
             //Arrange
@@ -156,14 +156,5 @@ describe('the functionlookupChar', () => {
             //Assert
             expect(resultCorrectInput).equals('h');
   })
-  it   ('18.should return undefined if second parameneter is not a number', ()=> {
-    //Arrange
-    const firstParamIsString = 'hoho';
-    const indexNotANumber = '10';
-    //Act
-    const resultIndexNotaNumber = lookupChar(firstParamIsString, indexNotANumber);
-    //Assert
-    expect(resultIndexNotaNumber).to.be.undefined;
-  })
-
+  
 });
