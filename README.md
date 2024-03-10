@@ -1,0 +1,1 @@
+[Back-End Technologies Basics - January 2024 - Certificate.pdf](https://github.com/VessyPenkova/Back-End-Technologies-Basics---2024/files/14549672/Back-End.Technologies.Basics.-.January.2024.-.Certificate.pdf)
